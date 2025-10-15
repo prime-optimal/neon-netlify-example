@@ -1,0 +1,15 @@
+[build]
+    publish = "public"
+    functions = "netlify/functions"
+    command = "bun ./index.html"
+    base = "."
+    framework = "#static"
+
+[functions]
+    directory = "netlify/functions"
+    node_bundler = "esbuild"
+
+[dev]
+    publish = "dist"
+    port = 8888
+    command = "bun ./index.html"

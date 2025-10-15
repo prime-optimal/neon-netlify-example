@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@netlify/functions": "^5.0.0",
+      },
+    },
+  },
+  "packages": {
+    "@netlify/functions": ["@netlify/functions@5.0.0", "", { "dependencies": { "@netlify/types": "2.1.0" } }, "sha512-gyKzl+P5SPp6P4iqykwPagSy7ODgRoQqi9TkjFJjM74FVJgxdiBQoLAmz+Pjl7kE5avJWtIvlQ+akAFaChekQQ=="],
+
+    "@netlify/types": ["@netlify/types@2.1.0", "", {}, "sha512-ktUb5d58pt1lQGXO5E9S0F1ljM0g+CoQuGTVII0IxBc0apmPq5RI0o3OWLY7U3ZERRiYTg5UfjiMihBEzuZsuw=="],
+  }
+}
